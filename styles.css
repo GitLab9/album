@@ -74,3 +74,21 @@ ol{
   p{
     text-align: center;
   }
+
+  p{
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count:0s;
+  }
+  
+  .aller {
+    animation-direction: normal;
+  }
+  
+  
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  }
