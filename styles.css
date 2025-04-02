@@ -1,18 +1,76 @@
+
+
 body{
     background: #9c7a0096;
     color: #070602;
 }
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+h2{
+    font-style: initial;
+}
+
 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
+h3.track{
+    text-align: center;
+    font-style: italic;
+    font-style: oblique;
+}
+
 ol{
     background: #6b5600;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+  
+}
+ol li{
+    text-align: center;
+   
+
 }
 
 a{
     text-decoration: none;
-    color: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+
 }
+
+a:hover{
+    color:#6b5600;
+
+ 
+}
+
+
+
+ol{
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count:0s;
+  }
+  
+  .aller {
+    animation-direction: normal;
+  }
+  
+  
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  }
+
+
+  p{
+    text-align: center;
+  }
