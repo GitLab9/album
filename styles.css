@@ -1,34 +1,31 @@
 body{
-  background: #9c7a0096;
-  color: #070602;
+  background: url('images/jj.jpg');
+  color: #ffe8a3;
   animation: sisi 1s alternate backwards;
-  animation-name: sisi;
+  animation-name: body;
 }
 
-@keyframes sisi {
-  from{
-      opacity: 1;
-  }
-  to{
-      opacity: 0;
-  }
+@keyframes body {
+  from{ opacity: 1;}
+  to{ opacity: 0;}
 }
 
 h1{
   text-align: center;
+  text-decoration:dashed;
+  color:#ffe8a3;
+}
+
+h2{
+  text-align: center;
+  color: #ffe8a3;
 }
 
 @keyframes ghost {
-  from{
-      opacity: 1;
-      
-  }
-  to{
-      opacity: 0;
-  }
+  from{ opacity: 1; }    
+  to{  opacity: 0;}
   
 }
-
 
 img{
   height: 50;
@@ -36,7 +33,7 @@ img{
   object-fit: cover;
   animation-name: ghost;
   animation: ghost 3s alternate-reverse backwards;
-  
+  backdrop-filter: unset;
 }
 
 
@@ -66,9 +63,8 @@ li::marker{
 
 ol:hover{
   opacity: 1;
-
- 
 }
+
 
 a{
   text-decoration: none;
@@ -77,15 +73,16 @@ a{
   transition:0.5s;
 }
 
+
 a:hover {
   opacity: 0.5;
   color: #6b5600;
   animation: glitch2 0.2s infinite;
   animation-name: glitch;
-
-
-
 }
+
+
+
 @keyframes glitch {
   0%{text-shadow:2px 2px black,-2px -2px rgb(255, 215, 15);}
 
@@ -95,7 +92,6 @@ a:hover {
 
  100%{text-shadow:-2px -2px black,2px 2px white;}
 }
-
 
 
 
@@ -123,6 +119,5 @@ ul:hover {
   text-overflow:ellipsis;
   padding-left: 10%;
   padding-right: 10%;
-
 }
 
