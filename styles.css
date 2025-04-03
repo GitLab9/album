@@ -34,6 +34,7 @@ ol{
 }
 ol li{
     text-align: center;
+    transform: scaleX(0,15);
    
 
 }
@@ -41,33 +42,38 @@ ol li{
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-
+    opacity: 1;
+    transition: 0.5s;
 }
 
 a:hover{
-    color:#6b5600;
+    color:#ffcc00;
+    opacity: 0.5;
 
- 
 }
 
   p{
     text-align: center;
   }
 
-  body{
-    animation-duration: 5s;
-    animation-name: glissement;
-    animation-iteration-count:0s;
+  p {
+    animation-duration: 10s;
+    animation-name: slidein;
   }
   
-  .aller {
-    animation-direction: normal;
-  }
-  
-  
-  @keyframes glissement {
-    from {
-      margin-left: 100%;
-      width: 300%;
+  @keyframes slidein {
+    from{
+      scroll-margin-left: 100%;
+
+
     }
+    to{
+      scroll-margin-left:0%;
+    }
+  }
+
+  ul{
+    background-color: #715b02;
+    text-align: center;
+
   }
