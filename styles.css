@@ -46,15 +46,16 @@ img{
 
 ol{
   
-  border-bottom: 2;
-  opacity: 0.5;
-  transition: 1s; 
+  border-bottom: 2; 
   padding-left: 41%; 
+  color: #ffe8a3;
 }
 
 ol li{
   text-align: center;
   padding-right: 70%;
+  border: #ffffff96;
+  color: #ffe8a3;
 } 
 
 li::marker{
@@ -63,23 +64,17 @@ li::marker{
   padding-left: 10%;
 }  
 
-ol:hover{
-  opacity: 1;
-}
+
 
 
 a{
   text-decoration: none;
   color: rgb(255, 255, 255);
-  opacity: 1;
-  transition:0.5s;
 }
 
 
 a:hover {
-  opacity: 0.5;
-  color: #6b5600;
-  animation: glitch2 0.2s infinite;
+  animation: glitch2 0.2s ease-in-out;
   animation-name: glitch;
 }
 
@@ -101,8 +96,6 @@ ul {
   list-style-type: none;
   text-align: center;
   border: #ffffff96;
-  opacity: 0.5;
-  transition: 1s;
 }
 
 ul li{
@@ -110,9 +103,6 @@ ul li{
   padding-right: 5%;
 }
 
-ul:hover {
-  opacity:1;
-}
 
 
 .para{
