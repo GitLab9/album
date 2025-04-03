@@ -21,6 +21,8 @@ h2{
   color: #ffe8a3;
 }
 
+h3{text-align: center;}
+
 @keyframes ghost {
   from{ opacity: 1; }    
   to{  opacity: 0;}
@@ -43,11 +45,11 @@ img{
 
 
 ol{
-  background: #6b5600;
+  
   border-bottom: 2;
   opacity: 0.5;
   transition: 1s; 
-  padding-left: 45%; 
+  padding-left: 41%; 
 }
 
 ol li{
@@ -56,7 +58,7 @@ ol li{
 } 
 
 li::marker{
-  color: antiquewhite;
+  color: rgb(255, 228, 149);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 10%;
 }  
@@ -97,14 +99,16 @@ a:hover {
 
 ul {
   list-style-type: none;
-  background-color: rgb(134, 111, 0);
   text-align: center;
   border: #ffffff96;
   opacity: 0.5;
   transition: 1s;
 }
 
-
+ul li{
+  text-align: center;
+  padding-right: 5%;
+}
 
 ul:hover {
   opacity:1;
