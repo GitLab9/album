@@ -1,4 +1,4 @@
-body{
+body {
   background: url('images/jj.jpg');
   color: #ffe8a3;
   animation: sisi 1s alternate backwards;
@@ -10,26 +10,26 @@ body{
   to{ opacity: 0;}
 }
 
-h1{
+h1 {
   text-align: center;
   text-decoration:dashed;
   color:#ffe8a3;
 }
 
-h2{
+h2 {
   text-align: center;
   color: #ffe8a3;
 }
 
-h3{text-align: center;}
+h3 {text-align: center;}
 
 @keyframes ghost {
-  from{ opacity: 1; }    
-  to{  opacity: 0;}
+  from{ opacity: 1;}    
+  to{ opacity: 0;}
   
 }
 
-img{
+img {
   height: 50;
   width: 50%;
   object-fit: cover;
@@ -39,73 +39,64 @@ img{
 }
 
 
-.amg{
+.amg {
   text-align: center;
 }
 
 
-ol{
-  
+ol {
   border-bottom: 2; 
   padding-left: 41%; 
   color: #ffe8a3;
 }
 
-ol li{
+
+ol li {
   text-align: center;
   padding-right: 70%;
   border: #ffffff96;
   color: #ffe8a3;
 } 
 
-li::marker{
+li::marker {
   color: rgb(255, 228, 149);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 10%;
 }  
 
-
-
-
-a{
+a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
-
 
 a:hover {
-  animation: glitch2 0.2s ease-in-out;
+  animation: glitch2 2s alternate;
   animation-name: glitch;
 }
-
-
 
 @keyframes glitch {
   0%{text-shadow:2px 2px black,-2px -2px rgb(255, 215, 15);}
 
- 25%{text-shadow:-2px -2px black,2px 2px white;}
+ 25%{text-shadow:-2px -2px black,2px 2px rgb(1, 255, 18);}
 
- 75%{text-shadow:2px 2px black,-2px -2px white;}
+ 75%{text-shadow:2px 2px black,-2px -2px rgb(0, 255, 174);}
 
- 100%{text-shadow:-2px -2px black,2px 2px white;}
+ 100%{text-shadow:-2px -2px black,2px 2px rgb(0, 195, 255);}
 }
-
-
 
 ul {
   list-style-type: none;
   text-align: center;
   border: #ffffff96;
+
 }
 
-ul li{
+ul li {
   text-align: center;
   padding-right: 5%;
 }
 
-
-
-.para{
+.para {
   
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: oblique;
